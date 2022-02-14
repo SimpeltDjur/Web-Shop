@@ -1,0 +1,39 @@
+:root {
+/*************
+  *** Colors ***
+  *************/
+  --color-dark: rgba(0, 0, 0, 0.904);
+  --color-light: rgba(255, 255, 255, 0.815);
+  --color-third: rgba(0, 0, 255, 1);
+  --color-fourth: rgba(255, 255, 0, 1);
+}
+
+
+
+/*********************
+*** Basic Settings ***
+**********************/
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+
+

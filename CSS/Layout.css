@@ -1,0 +1,48 @@
+/*************
+*** Header ***
+*************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+header userlist {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 0.1rem solid var(--color-light);
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+header userlist p {
+  padding-left: 00.5rem;
+  padding-right: 0.5rem;
+}
+header userlist ul {
+  position: absolute;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  bottom: -4.4rem;
+  left: 1.6rem;
+  list-style: none;
+  border: 0.1rem solid var(--color-light);
+  display: none; /** Doldis **/ 
+
+
+}
+
+
+header social-media-icons i {
+  font-size: 3rem;
+  padding: 0.3rem;
+}
+header contact phone, email {
+  margin-left: .2rem;
+}
+header contact i:not(:first-child) {margin-left: 1.5rem;}
+
+
