@@ -1,7 +1,6 @@
 /*************
 *** Header ***
 *************/
-
 header {
   display: flex;
   justify-content: space-between;
@@ -10,6 +9,8 @@ header {
   background-color: var(--color-dark);
   color: var(--color-light);
 }
+
+/* Userlist */
 header userlist {
   display: flex;
   align-items: center;
@@ -19,30 +20,35 @@ header userlist {
   padding: 0.5rem;
 }
 header userlist p {
-  padding-left: 00.5rem;
+  padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-header userlist ul {
+header userlist i:not(:first-child){
   position: absolute;
-  background-color: var(--color-light);
-  color: var(--color-dark);
-  bottom: -4.4rem;
-  left: 1.6rem;
-  list-style: none;
-  border: 0.1rem solid var(--color-light);
-  display: none; /** Doldis **/ 
-
-
+  right: .76rem;
+}
+header userlist select {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border: none;
+}
+header userlist i:first-child {
+  margin-right: .5rem;
 }
 
+/* Contact */
+header contact a {
+  color: var(--color-light);
+}
+header contact a:not(:first-child) {
+  padding-left: .3rem;
+}
 
+/* social media icons */
 header social-media-icons i {
   font-size: 3rem;
   padding: 0.3rem;
 }
-header contact phone, email {
-  margin-left: .2rem;
-}
-header contact i:not(:first-child) {margin-left: 1.5rem;}
+
 
 

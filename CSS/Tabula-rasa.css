@@ -2,8 +2,8 @@
 /*************
   *** Colors ***
   *************/
-  --color-dark: rgba(0, 0, 0, 0.904);
-  --color-light: rgba(255, 255, 255, 0.815);
+  --color-dark: rgb(10, 10, 10);
+  --color-light: rgb(245, 245, 245);
   --color-third: rgba(0, 0, 255, 1);
   --color-fourth: rgba(255, 255, 0, 1);
 }
@@ -33,6 +33,10 @@ body {
   font-weight: 400;
   color: var(--color-dark);
   background-color: var(--color-light);
+}
+
+a {
+  text-decoration: none;
 }
 
 
