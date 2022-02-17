@@ -50,5 +50,27 @@ header social-media-icons i {
   padding: 0.3rem;
 }
 
+/*****************
+*** Sales Item ***
+*****************/
+salesItem {
+  display: flex;
+  width: fit-content;
+  padding: 1rem;
+  border: .05rem solid rgb(225, 225, 225);
 
 
+
+  background-color: white;
+  
+  margin: 1rem;
+  
+}
+
+salesItem img {
+  height: 8rem;
+}
+
+salesItem category {
+  color: slategrey;
+}
